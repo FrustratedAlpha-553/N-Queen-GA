@@ -1,7 +1,7 @@
 import random
 import matplotlib.pyplot as plt 
 
-N = 30 
+N = 40
 POP_SIZE = 10000
 GENERATIONS = 10000
 MU_RATE = 0.2
