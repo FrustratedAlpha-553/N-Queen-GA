@@ -1,6 +1,7 @@
-# ♛ N-Queen Genetic Algorithm in Python
 
-This project solves the classical N-Queen Problem using a Genetic Algorithm (GA) implemented in Python.
+# ♛ N-Queen Genetic Algorithm in Python & C
+
+This project solves the classical **N-Queen Problem** using a **Genetic Algorithm (GA)** implemented in both **Python** and **C**.
 
 The N-Queen problem requires placing N queens on an N×N chessboard so that no two queens attack each other — meaning no two queens share the same row, column, or diagonal.
 
@@ -8,14 +9,17 @@ The N-Queen problem requires placing N queens on an N×N chessboard so that no t
 
 ## 🧠 Algorithm Overview
 
-- Language: Python 3  
-- Method: Genetic Algorithm  
-- Key Features:
+- **Languages**: Python 3, C (ANSI C standard)
+- **Method**: Genetic Algorithm
+- **Key Features**:
   - Permutation-based representation
   - Fitness = number of diagonal conflicts
   - Elitism & selection
-  - PMX (Partially Mapped Crossover) & Single-Point crossover supported
-  - Random swap mutation
+  - Crossover:
+    - PMX (Partially Mapped Crossover)
+    - Single-Point Crossover
+  - Mutation:
+    - Random swap mutation for diversity
 
 ---
 
@@ -23,27 +27,19 @@ The N-Queen problem requires placing N queens on an N×N chessboard so that no t
 
 ### ✅ Crossover
 
-- Single-Point Crossover: Basic crossover that preserves partial order.
-- PMX (Partially Mapped Crossover): Maintains valid permutations, ideal for N-Queen.
+- **Single-Point Crossover**: Preserves partial order and structure.
+- **PMX (Partially Mapped Crossover)**: Ensures valid permutations, ideal for N-Queen solutions.
 
 ### ✅ Mutation
 
-Randomly selects two genes (columns) and swaps them to introduce diversity.
+- Swaps two randomly selected genes (columns) to introduce variation.
 
 ---
 
-## 📂 Files
+## 📂 Project Structure
 
-- n_queen_ga.py → Python source code with Genetic Algorithm
-- README.md → This documentation file
+- `n_queen_ga.py` → Python implementation of Genetic Algorithm
+- `n_queen_ga.c` → C implementation of Genetic Algorithm
+- `README.md` → Project documentation
 
 ---
-
-## ▶️ How to Run
-
-1. Install Python (version ≥ 3.6)
-2. Run the file:
-
-`bash
-python n_queen_ga.py
-
