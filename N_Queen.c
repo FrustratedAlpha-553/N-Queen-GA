@@ -3,7 +3,7 @@
 #include <time.h>
 
 
-#define N 10
+#define N 40
 #define POP_SIZE 10000 
 #define GENERATIONS 1000000
 
