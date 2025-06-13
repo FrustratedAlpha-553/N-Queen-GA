@@ -3,9 +3,9 @@
 #include <time.h>
 
 
-#define N 40
+#define N 60
 #define POP_SIZE 10000 
-#define GENERATIONS 1000000
+#define GENERATIONS 1000
 
 
 typedef struct{
